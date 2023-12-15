@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-component-parent-lavq
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-zjpq-tenant/build-suite-component-update-nitk/multi-component-parent-lavq@sha256:1c59590ee096b1f28945eb69ef6644cfdc72435a77d3311d0fd7097fecb7a96b
+        name: container-image
+        resources: {}
+status: {}
