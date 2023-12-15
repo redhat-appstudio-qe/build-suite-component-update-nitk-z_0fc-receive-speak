@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/build-e2e-zjpq-tenant/build-suite-component-update-nitk/multi-component-parent-lavq@sha256:1c59590ee096b1f28945eb69ef6644cfdc72435a77d3311d0fd7097fecb7a96b
+      - image: quay.io/redhat-appstudio-qe/build-e2e-zjpq-tenant/build-suite-component-update-nitk/multi-component-parent-lavq@sha256:3614c840a75cef6d74c2261e99a4b391190d4e405dd938a524007e5103bc5ed6
         name: container-image
         resources: {}
 status: {}
