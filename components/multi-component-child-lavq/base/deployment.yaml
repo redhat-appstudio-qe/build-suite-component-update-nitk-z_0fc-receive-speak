@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-child-lavq
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-zjpq-tenant/build-suite-component-update-nitk/multi-component-child-lavq@sha256:b87bcf5c0218b1b79f514c69ba04e9cab28f4d45feb8795a62bac6754e542d0f
         imagePullPolicy: Always
         name: container-image
         ports:
